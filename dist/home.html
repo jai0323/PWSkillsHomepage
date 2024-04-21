@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PW Skills Homepage</title>
+</head>
+<body class="bg-slate-900">
+    <!-- navbar goes here -->
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between items-center px-4 md:px-6">
+        <div class="text-2xl text-indigo-700 font-bold">PW Skills</div>
+        <ul class="md:flex font-semibold hidden">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer"><a href="#products">Products</a></li>
+            <li class="mx-[10px] cursor-pointer"><a href="#aboutus">About us</a></li>
+            <li class="mx-[10px] cursor-pointer"><a href="#footer">Contact us</a></li>
+        </ul>
+        <div class="hidden md:block p-2 rounded bg-indigo-700 text-white  font-bold cursor-pointer ">
+            Login/Signup
+        </div>
+        <div class="md:hidden">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- hero section start here  -->
+    <header class="w-full h-auto">
+        <img class="w-full hidden md:block" src="../assets/desktopHero.jpg" alt="">
+        <img class="w-full md:hidden"src="../assets/mobileHero.png" alt="">
+    </header>
+    <!-- hero section ends here  -->
+
+    <!-- our student section  -->
+    <div id="aboutus" class="h-auto w-100 flex flex-wrap flex-col items-center justify-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-indigo-800 font-bold text-2xl md:text:4xl text-center">"Pure Hardwork, No shortcut!"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded md:mt-4 mb-12"> </div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-46 flex flex-col items-center mb-14">
+                <img class="w-14 h-14 m-2" src="../assets/hike.png" alt="">
+                <p class="text-xl font-bold text-white">55%</p>
+                <p class="text-xl font-bold text-gray-500">Average Salary Hike</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-14">
+                <img class="w-14 h-14 m-2" src="../assets/book.png" alt="">
+                <p class="text-xl font-bold text-white">600+</p>
+                <p class="text-xl font-bold text-gray-500">Differnet Courses</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-14">
+                <img class="w-14 h-14 m-2" src="../assets/transitions.png" alt="">
+                <p class="text-xl font-bold text-white">14000+</p>
+                <p class="text-xl font-bold text-gray-500">Career Transitions</p>
+            </div>
+            <div class="w-46 flex flex-col items-center mb-14">
+                <img class="w-14 h-14 m-2" src="../assets/hiring.png" alt="">
+                <p class="text-xl font-bold text-white">400+</p>
+                <p class="text-xl font-bold text-gray-500">Hiring Partners</p>
+            </div>
+        </div>
+    </div>
+    <!-- our student section ends here  -->
+
+    <!-- our product section  -->
+    <div id="products" class="h-auto w-100 flex flex-wrap flex-col items-center justify-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-indigo-800 font-bold text-2xl md:text:4xl text-center">"Explore Our Ecosystem"</p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded md:mt-4 mb-12"> </div>
+        </div>
+        
+        <div class="w-[90%] h-auto flex flex-wrap justify-around">
+            <div class="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2">
+                <img class="w-14 h-14 m-2" src="../assets/product-1.png" alt="">
+                <p class="text-xl font-bold text-white mb-2 ">PW Skills Lab</p>
+                <p class="text-[16px] text-center font-bold text-gray-500">Supercharge your project development with our robust lab.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img class="w-14 h-14 m-2" src="../assets/product-2.png" alt="">
+                <p class="text-xl font-bold text-white mb-2">Job Portal</p>
+                <p class="text-[16px] text-center font-bold text-gray-500">Use exceptional templates for a stand-out resume minus the sign up process.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img class="w-14 h-14 m-2" src="../assets/product-3.png" alt="">
+                <p class="text-xl font-bold text-white mb-2">Experience Portal</p>
+                <p class="text-[16px] text-center font-bold text-gray-500">Self-paced portal prioritizes hands-on training with 570+ internship projects.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img class="w-14 h-14 m-2" src="../assets/product-4.png" alt="">
+                <p class="text-xl font-bold text-white mb-2">Become an affiliate</p>
+                <p class="text-[16px] text-center font-bold text-gray-500">Explore affiliate marketing opportunities and attain financial freedom.</p>
+            </div>
+            <div class="w-64 flex flex-col items-center mb-12 p-2">
+                <img class="w-14 h-14 m-2" src="../assets/product-5.png" alt="">
+                <p class="text-xl font-bold text-white mb-2">Hall Of Fame</p>
+                <p class="text-[16px] text-center font-bold text-gray-500">Our student placements and 100K+ career transitions speak volumes.</p>
+            </div>
+        </div>    
+    </div>
+    <!-- our product section ends here  -->
+
+    <!-- footer start here  -->
+    <footer id="footer" class="w-full bg-[#1B2124] px-4 py-4 text-white pt-8 flex flex-col md:flex-row flex-wrap sm:items-center md:items-start md:justify-between md:px-12">
+        <div class="flex flex-col items-center md:block">
+            <img class="w-40 h-14" src="../assets/logo.png" alt="">
+            <p class="my-4">Email us: support@pwskills.com</p>
+            <img class="w-32 h-32" src="../assets/iso.png" alt="">
+        </div>
+        <div class="flex flex-col items-center md:block">
+            <h2 class="font-bold text-xl mt-4">PW Skills</h2>
+            <div class="w-32 h-1 border-yellow-400 border-b-2 rounded-2xl my-2"></div>
+            <div class="flex flex-col items-center md:block">
+                <p>About us</p>
+                <p>FAQs</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center md:block">
+            <h2 class="font-bold text-xl mt-4">Products</h2>
+            <div class="w-32 h-1 border-yellow-400 border-b-2 rounded-2xl my-2"></div>
+            <div class="flex flex-col items-center md:block">
+                <p>PW Skills Lab</p>
+                <p>Job Portal</p>
+                <p>Experience Portal</p>
+                <p>Become an affiliate</p>
+                <p>Hall of fame</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center md:block">
+            <h2 class="font-bold text-xl mt-4">Links</h2>
+            <div class="w-32 h-1 border-yellow-400 border-b-2 rounded-2xl my-2"></div>
+            <div class="flex flex-col items-center md:block">
+                <p>Discord Channel</p>
+                <p>PW Youtube</p>
+                <p>Careers</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here  -->
+</body>
+</html>
